@@ -46,6 +46,8 @@ kerberos::golden /user:NyaMeeEain /domain:insomnia.com /rc4:f9969e088b2c13d93833
 ```
 # Azure AD Connect
 ![SSO](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/media/whatis-hybrid-identity/arch.png)
+
+
 Azure AD Connect is a Microsoft tool designed to facilitate accomplish infrastructure deployments, between on-premise and cloud.It provides the following features:
 * Password hash synchronization
 * Pass-through authentication 
