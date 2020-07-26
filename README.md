@@ -7,7 +7,7 @@ Get-GlobalAddressList -ExchHostname outlook.office365.com -UserName thureinsoe@i
 # Exchange Service
 Connecting to Exchange Service, it is also able to retrieve the Active Directory username corresponding to the given email address
 ```
-Get-ADUsernameFromEWS -EmailList gotham-emails.txt -ExchHostname outlook.office365.com -Remote
+Get-ADUsernameFromEWS -EmailList Potential-emails.txt -ExchHostname outlook.office365.com -Remote
 ```
 # Enabling Multi-Factor Authentication Users
 The following MSOnline PowerShell command allows Azure AD administrators to list Azure AD users and the state of their MFA configuration
