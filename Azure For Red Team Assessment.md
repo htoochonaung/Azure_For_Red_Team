@@ -29,6 +29,8 @@ Password hash synchronization is an extension to the directory synchronization f
 # Seamless Single Sign-On (SSO)
 Azure Active Directory Seamless Single Sign-On (Azure AD Seamless SSO) automatically signs users in when they are on their corporate devices connected to your corporate network. When enabled, users don't need to type in their passwords to sign in to Azure AD. This feature provides your users easy access to your cloud-based applications without needing any additional on-premises components.**When the user wants to connect to Azure AD, the Domain Controller provides him a service ticket for Azure AD. Service tickets are encrypted with the password of a computer account named AZUREADSSOACC$, automatically created when enabling this feature**
 
+![SSO](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/media/how-to-connect-sso/sso1.png)
+
 In order to do so, the following parameters are required:
 
 * Username of the user to impersonate.
