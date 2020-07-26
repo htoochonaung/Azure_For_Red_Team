@@ -16,3 +16,17 @@ Get-MsolUser -EnabledFilter EnabledOnly -MaxResults 50000 | select DisplayName,U
 ```
 # Password Hash Synchronization (PHS)
 This attack is not actually targeting Azure AD but exploiting one of its features in order to escalate privileges on the on-premise Active Directory domain it is synchronized with. Remember Password Hash Synchronization? As explained earlier in this post, a synchronisation account is created by Azure AD Connect on the on-premises Active Directory
+
+# Seamless Single Sign-On (SSO)
+Azure Active Directory Seamless Single Sign-On (Azure AD Seamless SSO) automatically signs users in when they are on their corporate devices connected to your corporate network. When enabled, users don't need to type in their passwords to sign in to Azure AD.This feature provides your users easy access to your cloud-based applications without needing any additional on-premises components.When the user wants to connect to Azure AD, the Domain Controller provides him a service ticket for Azure AD. Service tickets are encrypted with the password of a computer account named AZUREADSSOACC$, automatically created when enabling this feature.
+
+In order to do so, the following parameters are required:
+
+Username of the user to impersonate.
+Domain name.
+NTLM hash of the AZUREADSSOACC$ account.
+SID of the user to impersonate.
+Target service, which is HTTP/aadg.windows.net.nsatc.net.
+```
+kerberos::golden /user:NyaMeeEain /domain:insomnia.com /rc4:db[...]59 /sid:S-1-5-21-805388781-1469664503-1626361301-1106 /id:1234 /target:XXXXXXX.net /service:HTTP /ptt
+```
