@@ -66,4 +66,4 @@ ADConnectDump is a great set of tools for abusing Azure AD Connect - allowing yo
 
 * [AZURE AD INTRODUCTION FOR RED TEAMERS](https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html)
 * [Password Hash Sync Deep Dive](https://www.eshlomo.us/password-hash-sync-deep-dive/)
-* [astamouse Private Course] (https://rastamouse.me/)
+* [Rastamouse Private Course] (https://www.zeropointsecurity.co.uk/red-team-ops)
