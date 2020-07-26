@@ -22,11 +22,11 @@ Azure Active Directory Seamless Single Sign-On (Azure AD Seamless SSO) automatic
 
 In order to do so, the following parameters are required:
 
-Username of the user to impersonate.
-Domain name.
-NTLM hash of the AZUREADSSOACC$ account.
-SID of the user to impersonate.
-Target service, which is HTTP/aadg.windows.net.nsatc.net.
+* Username of the user to impersonate.
+* Domain name.
+* NTLM hash of the AZUREADSSOACC$ account.
+* SID of the user to impersonate.
+* Target service, which is HTTP/aadg.windows.net.nsatc.net.
 
 'Having this information we can now create and use the Silver Ticket on any Windows computer connected to the internet'
 ```
