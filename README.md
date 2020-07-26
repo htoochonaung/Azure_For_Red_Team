@@ -15,6 +15,8 @@ The following MSOnline PowerShell command allows Azure AD administrators to list
 Get-MsolUser -EnabledFilter EnabledOnly -MaxResults 50000 | select DisplayName,UserPrincipalName,@{N="MFA Status"; E={ if( $_.StrongAuthenticationRequirements.State -ne $null){ $_. StrongAuthenticationRequirements.State} else { "Disabled"}}} | export-csv mfaresults.csv
 ```
 # Password Hash Synchronization (PHS)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 This attack is not actually targeting Azure AD but exploiting one of its features in order to escalate privileges on the on-premise Active Directory domain it is synchronized with. Remember Password Hash Synchronization? As explained earlier in this post, a synchronisation account is created by Azure AD Connect on the on-premises Active Directory
 
 # Seamless Single Sign-On (SSO)
