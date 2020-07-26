@@ -32,5 +32,4 @@ In order to do so, the following parameters are required:
 ```
 kerberos::golden /user:NyaMeeEain /domain:insomnia.com /rc4:db[...]59 /sid:S-1-5-21-805388781-1469664503-1626361301-1106 /id:1234 /target:XXXXXXX.net /service:HTTP /ptt
 ```
-
-[1]: http://somewebsite.org
+[I'm an inline-style link](https://www.somewebsite.com)
