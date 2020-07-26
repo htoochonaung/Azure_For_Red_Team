@@ -54,11 +54,14 @@ Azure AD Connect is a Microsoft tool designed to facilitate accomplish infrastru
 Azure AD Connect creates an account with DCSync privileges. Since organisations frequently fail to protect the Azure AD Connect system as though it were a Domain Controller, you can often access it as a lower-privileged "server admin"
 
 ADConnectDump is a great set of tools for abusing Azure AD Connect - allowing you to dump the associated credentials,POC is As below shown screenshot.
+
+
 ![SSO](https://raw.githubusercontent.com/fox-it/adconnectdump/master/exampledump.png)
 
 
 
 # References
+
 * [AZURE AD INTRODUCTION FOR RED TEAMERS](https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html)
 * [Password Hash Sync Deep Dive](https://www.eshlomo.us/password-hash-sync-deep-dive/)
-** [astamouse Private Course] (https://rastamouse.me/)
+* [astamouse Private Course] (https://rastamouse.me/)
