@@ -45,16 +45,20 @@ kerberos::golden /user:NyaMeeEain /domain:insomnia.com /rc4:f9969e088b2c13d93833
 
 ```
 # Azure AD Connect
+![SSO](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/media/whatis-hybrid-identity/arch.png)
 Azure AD Connect is a Microsoft tool designed to facilitate accomplish infrastructure deployments, between on-premise and cloud.It provides the following features:
 * Password hash synchronization
 * Pass-through authentication 
+
 **Password Hash Synchronisation, will take the password hash of designated users within the on-premise Active Directory and copy them into Azure AD. This allows users to authenticate to cloud services such as Office 365 with the same credentials they use on-premise.**
 Azure AD Connect creates an account with DCSync privileges. Since organisations frequently fail to protect the Azure AD Connect system as though it were a Domain Controller, you can often access it as a lower-privileged "server admin"
 
-![SSO](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/media/whatis-hybrid-identity/arch.png)
+ADConnectDump is a great set of tools for abusing Azure AD Connect - allowing you to dump the associated credentials,POC is As below shown screenshot.
+![SSO](https://raw.githubusercontent.com/fox-it/adconnectdump/master/exampledump.png)
 
 
 
 # References
 * [AZURE AD INTRODUCTION FOR RED TEAMERS](https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html)
 * [Password Hash Sync Deep Dive](https://www.eshlomo.us/password-hash-sync-deep-dive/)
+** [astamouse Private Course] (https://rastamouse.me/)
