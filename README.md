@@ -64,7 +64,7 @@ ADConnectDump is a great set of tools for abusing Azure AD Connect - allowing yo
 the Global administrator is the most powerful account of Azure AD environment. Ideally the Global administrator can be able to 
 read and modify any administrative setting in Azure AD environment By default. 
 and the Global administrator has full admin rights access to any other service like Office 365 services and SharePoint. 
-**If Enabling the Global administrator compromised, It might be possible to compromise the entire forest AD environment.**
+**If Enabling the Global administratorhad compromised, It would have to compromise the entire forest AD environment.**
 # References
 
 * [AZURE AD INTRODUCTION FOR RED TEAMERS](https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html)
