@@ -60,7 +60,7 @@ ADConnectDump is a great set of tools for abusing Azure AD Connect - allowing yo
 
 ![SSO](https://raw.githubusercontent.com/fox-it/adconnectdump/master/exampledump.png)
 
-
+# The Global Administrator
 
 # References
 
